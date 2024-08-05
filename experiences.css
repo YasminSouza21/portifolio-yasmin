@@ -1,0 +1,81 @@
+#experiences{
+    background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+    #experiences{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .h1-experiences h1{
+        text-align: center;
+    }
+    
+    .container-linha-tempo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 80%;
+    }
+
+    .container-linha-tempo img{
+        max-width: 50px;
+        border-radius: 50px;
+    }
+    
+
+    .hanke{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        gap: 10px;
+    }
+
+
+    .text-hanke{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .unifil{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .text-unifil{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .adventista{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        gap: 10px;
+    }
+
+    .text-adventista{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .border{
+        width: 60%;
+        height: 5px;
+        background-color: black;
+    }
+}
